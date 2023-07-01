@@ -1,0 +1,38 @@
+.card-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(30%);
+  width: 280px;
+  height: 450px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .card-wrapper {
+    width: 400px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card-wrapper {
+    width: 90%;
+    height: auto;
+  }
+}
